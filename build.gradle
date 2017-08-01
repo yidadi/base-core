@@ -1,0 +1,9 @@
+apply from: "https://raw.githubusercontent.com/yidadi/gradle/master/common.gradle"
+
+//buildscript {
+//    apply from: "https://raw.githubusercontent.com/yidadi/gradle/master/publish.gradle"
+//}
+
+dependencies {
+    compile("org.apache.commons:commons-lang3:3.6")
+}
